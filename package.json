@@ -1,12 +1,12 @@
 {
-  "name": "@rocketseat/eslint-config",
-  "version": "2.1.0",
+  "name": "@herowcode/eslint-config",
+  "version": "1.0.0",
   "private": false,
-  "description": "ESLint configuration used by Rocketseat.",
+  "description": "ESLint configuration used by HEROw.",
   "main": "index.js",
   "license": "MIT",
   "repository": {
-    "url": "rocketseat/eslint-config-rocketseat"
+    "url": "judsonjuniorr/eslint-configs"
   },
   "peerDependencies": {
     "eslint": "^8.0.0",
