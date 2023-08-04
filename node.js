@@ -28,6 +28,7 @@ module.exports = {
     ],
     camelcase: "off",
     "no-useless-constructor": "off",
+    "@typescript-eslint/no-unused-vars": [2, { argsIgnorePattern: "_" }],
     "import-helpers/order-imports": [
       "warn",
       {
