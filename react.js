@@ -26,12 +26,13 @@ module.exports = {
     "eslint-plugin-import-helpers",
   ],
   rules: {
+    "react/self-closing-comp": "error",
     "prettier/prettier": [
       "error",
       {
         printWidth: 80,
         tabWidth: 2,
-        singleQuote: true,
+        singleQuote: false,
         trailingComma: "all",
         arrowParens: "always",
         semi: false,
@@ -52,6 +53,7 @@ module.exports = {
     "jsx-a11y/aria-unsupported-elements": "warn",
     "jsx-a11y/role-has-required-aria-props": "warn",
     "jsx-a11y/role-supports-aria-props": "warn",
+    "react/no-unknown-property": "error",
     "@typescript-eslint/no-unused-vars": [2, { argsIgnorePattern: "_" }],
     "import-helpers/order-imports": [
       "warn",
@@ -71,4 +73,5 @@ module.exports = {
       [require.resolve("@typescript-eslint/parser")]: [".ts", ".tsx", ".d.ts"],
     },
   },
+  ignorePatterns: ["node_modules"],
 };
